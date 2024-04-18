@@ -3,7 +3,7 @@ import TeamClock from "./TeamClock";
 import TeamObject from "./TeamObject";
 import GameReviews from "./GameReviews";
 import ShoppingList from "./ShoppingList";
-import ExpensesDisplay from "./Expenses";
+import Expenses from "./Expenses";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       {/*  <TeamObject /> */}
       {/* <GameReviews /> */}
       {/* <ShoppingList/> */}
-      <ExpensesDisplay />
+      <Expenses />
     </>
   );
 }
