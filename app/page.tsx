@@ -4,6 +4,7 @@ import TeamObject from "./TeamObject";
 import GameReviews from "./GameReviews";
 import ShoppingList from "./ShoppingList";
 import Expenses from "./Expenses";
+import { AdminRightsContext } from "./AdminRightsContext";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       {/*  <TeamObject /> */}
       {/* <GameReviews /> */}
       {/* <ShoppingList/> */}
+
       <Expenses />
     </>
   );
