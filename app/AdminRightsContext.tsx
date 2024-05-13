@@ -1,6 +1,11 @@
-"use client";
 import { createContext } from "react";
 
-export type AdminRightsContextType = {};
+export type AdminRightsContextType = {
+  value: boolean;
+  toggleAdmin: () => void;
+};
 
-export const AdminRightsContext = createContext<AdminRightsContextType>({});
+export const AdminRightsContext = createContext({
+  value: false,
+  toggleAdmin: () => {},
+});

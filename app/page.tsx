@@ -13,7 +13,6 @@ export default function Home() {
       {/*  <TeamObject /> */}
       {/* <GameReviews /> */}
       {/* <ShoppingList/> */}
-
       <Expenses />
     </>
   );
